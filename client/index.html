@@ -24,13 +24,13 @@
         </div>
       </div>
     </nav>
-   
-   
-   
-   
+
+
+    {{> map}}
+
        <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">      
+        <div class="col-sm-3 col-md-2 sidebar">
           <div class="row">
           <br>
         <div class="col-md-10 col-md-offset-1">
@@ -39,7 +39,7 @@
           <br><br>
         </div>
       </div>
-      
+
    	  <br><br>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -49,97 +49,45 @@
         </div>
       </div>
     </div>
-        
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        
-        </div>
-    
-    	
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-3">
-          <h2>Add title here</h2>
-          <p>This is where you add content for your slide</p>
-          <br><br><br><br><br><br><br><br><br><br>
-        </div>
-        <div class="col-lg-8">
-       </div>
 
-      </div>
-    <br><br>
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-3">
-           <h2>Add title here</h2>
-          <p>This is where you add content for your slide</p>
-          <br><br><br><br><br><br><br><br><br><br>
-        </div>
-        <div class="col-lg-8">
-        
-       </div>
-   
-      </div>
-      
-      <br>
-      <br>	
 
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-3">
-           <h2>Add title here</h2>
-          <p>This is where you add content for your slide</p>
-          <br><br><br><br><br><br><br><br><br><br>
-        </div>
-        <div class="col-lg-8">
-        
-       </div>
-   
-      </div>
-      
-      <br>
-      <br>    
+
+
+
 
     <footer class="footer">
       <div class="container">
         <p class="text-muted">StoryBuilder allows you to craft narratives from geolocated data</p>
-        
+
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-         <!-- 
+         <!--
    <li><a href="#about">About</a></li>
             <li><a href="#contact">Get Involved</a></li>
  -->
-            
+
           </ul>
         </div><!--/.nav-collapse -->
-        
-        
+
+
       </div>
     </footer>
 
 </div>
 </div>
-   
-   
-   
-   
-   
+
+
+
+
+
 <!--     {{> map}} -->
 </body>
 
 <template name="map">
-    <div id="container">
-      <div id="map" class="map"></div>
-    </div>
-       <div style="bottom: auto; min-height: 0px; height: 119px;" class="" id="editor_modal">
-      <div class="header">
-         <a title="Toggle expanded mode" href="#" class="expandButton"></a>
-         <h1>Sandbox</h1>
-         <a href="" title="Change template" id="change_basemap">Change BaseMap</a>
-      </div>
-      <div class="options">
-         <ul class="h-right">
-            <li><a title="Toggle collapse mode" href="#" class="collapseButton expandButton"></a></li>
-            <li><a title="Download story" href="#" class="downloadButton"></a></li>
-            <li><a title="Share story" href="#" class="shareButton"></a></li>
-         </ul>
-      </div>
-   </div>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <div id="containeree">
+          <div id="map" class="map"></div>
+        </div>
+  </div>
 </template>
