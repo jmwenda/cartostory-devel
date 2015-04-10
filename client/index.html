@@ -1,0 +1,29 @@
+<head>
+  <title>CartoStory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    {{> map}}
+</body>
+
+<template name="map">
+    <div id="container">
+      <div id="map" class="map"></div>
+    </div>
+       <div style="bottom: auto; min-height: 0px; height: 119px;" class="" id="editor_modal">
+      <div class="header">
+         <a title="Toggle expanded mode" href="#" class="expandButton"></a>
+         <h1>Sandbox</h1>
+         <a href="" title="Change template" id="change_basemap">Change BaseMap</a>
+      </div>
+      <div class="options">
+         <ul class="h-right">
+            <li><a title="Toggle collapse mode" href="#" class="collapseButton expandButton"></a></li>
+            <li><a title="Download story" href="#" class="downloadButton"></a></li>
+            <li><a title="Share story" href="#" class="shareButton"></a></li>
+         </ul>
+      </div>
+   </div>
+</template>
