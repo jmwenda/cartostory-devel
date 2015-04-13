@@ -57,6 +57,31 @@ body {
   }
 }
 
+.mainsection{
+
+  width:auto;
+  float:right;
+  height:auto;
+}
+
+#slides {
+    background-color: transparent;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    bottom: 80px;
+    width: 452px;
+    text-align: left;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    min-height: 330px;
+    border-radius: 4px;
+    z-index: 1;
+}
+.slide {
+   background-color: white;
+   height: 300px;
+}
+
 /* Sidebar navigation */
 .nav-sidebar {
   margin-right: -21px; /* 20px padding + 1px border */
@@ -82,9 +107,16 @@ body {
 .main {
   /*padding: 20px;*/
 }
+#center{
+
+  overflow-y: auto;
+}
+#containere{
+  width:100%;
+}
 @media (min-width: 768px) {
   .main {
-    padding-right: 40px;
+    padding-right: 0px;
     padding-left: 40px;
   }
 }
@@ -94,13 +126,13 @@ body {
 
 /*edit to have the map well displayed */
 
-.col-md-offset-2 {
+/*.col-md-offset-2 {
   margin-left: 13.56666667%;
 }
 
 .col-md-10 {
   width: 89.23333333%;
-}
+}*/
 
 /*
  * Placeholder dashboard ideas
